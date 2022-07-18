@@ -117,3 +117,70 @@ img.on-height {
 .float-right {
     float: right;
 }
+
+
+/* CONTENT */
+
+
+/* Barra di navigazione fixed */
+nav {
+    background-color: blue;
+
+    height: 100px;
+    width: 100%;
+}
+
+
+/* Sezione jumbo-tron */
+.big-container {
+    background-color: #b4d0e7;
+}
+
+.container {
+    background-color: aqua;
+
+    padding-top: 100px;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.jumbo-tron {
+    background-color: yellowgreen;
+
+    height: 350px;
+}
+
+.jumbo-tron .caption {
+    flex-basis: 55%;
+}
+
+/* Contenuto principale */
+
+.content.container {
+    background-color: red;
+
+    padding-top: 300px;
+    max-width: 1000px;
+}
+
+.subscription-choice {
+    background-color: purple;
+
+}
+
+.sub-card-container {
+    background-color: darkgoldenrod;
+
+}
+
+.card {
+    background-color: chocolate;
+
+    margin-top: 20px;
+    height: 500px;
+    width: calc(100% / 3 - 30px);
+}
+
+.card:last-of-type {
+    height: 250px;
+}
