@@ -163,6 +163,9 @@ nav {
     max-width: 1000px;
 }
 
+
+/* Sezione abbonamenti */
+
 .subscription-choice {
     background-color: purple;
 
@@ -183,4 +186,14 @@ nav {
 
 .card:last-of-type {
     height: 250px;
+}
+
+
+/* Sezioni partner */
+
+.find-partner {
+    background-color: darkgreen;
+
+    height: 400px;
+    margin: 50px 0;
 }
