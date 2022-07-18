@@ -9,13 +9,6 @@ body {
     font-family: sans-serif;
 }
 
-/* a-Link reset */
-a {
-    color: inherit;
-    cursor: default;
-    text-decoration: none;
-}
-
 /* Grandezza di tutte le immagini massimo quanto
  il loro rispettivo contenitore sulla base della larghezza*/
 img.on-width {
@@ -211,4 +204,46 @@ nav {
     margin-top: 20px;
     height: 200px;
     width: calc(100% / 3 - 15px);
+}
+
+
+/* Sezione team Dropbox Business */
+
+.team-cards-container {
+    /* background-color: lime; */
+
+}
+
+.team-cards-container>.card {
+    background-color: saddlebrown;
+
+    height: 200px;
+    width: calc(100% / 6);
+}
+
+.four-cards {
+    flex-basis: 30%;
+}
+
+.four-cards>.card {
+    background-color: forestgreen;
+
+    border: 5px solid black;
+
+    height: 50%;
+    width: 50%;
+
+
+}
+
+.big-container:nth-child(4)>.container {
+    padding: 50px 0;
+}
+
+.business-trial>p {
+    flex-basis: 40%;
+
+    color: #61082b;
+    font-size: 36px;
+    font-weight: bold;
 }
