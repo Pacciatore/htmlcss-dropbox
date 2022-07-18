@@ -1,0 +1,119 @@
+/* CSS Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+/* a-Link reset */
+a {
+    color: inherit;
+    cursor: default;
+    text-decoration: none;
+}
+
+/* Grandezza di tutte le immagini massimo quanto
+ il loro rispettivo contenitore sulla base della larghezza*/
+img.on-width {
+    width: 100%;
+}
+
+/* Grandezza di tutte le immagini massimo quanto
+ il loro rispettivo contenitore sulla base dell'altezza'*/
+img.on-height {
+    height: 100%;
+}
+
+/* UTILITIES */
+
+
+/* Flexbox utilities */
+
+.flex {
+    display: flex;
+}
+
+.column {
+    flex-direction: column;
+}
+
+.row {
+    flex-direction: row;
+}
+
+.column-reverse {
+    flex-direction: column-reverse;
+}
+
+.row-reverse {
+    flex-direction: row-reverse;
+}
+
+.space-between {
+    justify-content: space-between;
+}
+
+.space-around {
+    justify-content: space-around;
+}
+
+.space-evenly {
+    justify-content: space-evenly;
+}
+
+.grow {
+    flex-grow: 1;
+}
+
+.shrink {
+    flex-shrink: 0;
+}
+
+.wrap {
+    flex-wrap: wrap;
+}
+
+.no-wrap {
+    flex-wrap: nowrap;
+}
+
+/* /Flexbox */
+
+
+/* Position tags utilities */
+
+.relative {
+    position: relative;
+}
+
+.absolute {
+    position: absolute;
+}
+
+.fixed {
+    position: fixed;
+}
+
+/* /Position tags */
+
+
+/* Clearfix per uso del float, da applicare al container */
+.clearfix::after {
+    clear: both;
+    content: "";
+    display: table;
+}
+
+/* Float left */
+.float-left {
+    float: left;
+}
+
+/* Float right */
+.float-right {
+    float: right;
+}
