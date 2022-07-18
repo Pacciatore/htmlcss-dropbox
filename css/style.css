@@ -127,12 +127,13 @@ nav {
 /* Sezione jumbo-tron */
 .big-container {
     background-color: #b4d0e7;
+
+    padding-top: 100px;
 }
 
 .container {
     background-color: aqua;
 
-    padding-top: 100px;
     margin: 0 auto;
     max-width: 1200px;
 }
@@ -149,10 +150,13 @@ nav {
 
 /* Contenuto principale */
 
+.content.container:nth-child(3) {
+    padding-top: 300px;
+}
+
 .content.container {
     background-color: red;
 
-    padding-top: 300px;
     max-width: 1000px;
 }
 
@@ -255,7 +259,7 @@ nav {
 .faq {
     background-color: darkviolet;
 
-    padding-bottom: 100px;
+    padding: 100px 0;
 }
 
 .faq * {
@@ -270,13 +274,57 @@ ul {
     list-style-type: none;
 }
 
-li {
+.faq li {
     padding: 30px 0;
 }
 
-li::after {
+.faq li::after {
     content: '\f107';
     font-family: FontAwesome;
     display: inline-block;
     justify-self: right;
+}
+
+
+/* Footer */
+
+footer {
+    background-color: black;
+
+    color: white;
+    height: 500px;
+}
+
+/* Sezione categorie del footer */
+
+.container>.category {
+    margin-bottom: 70px;
+}
+
+footer h4 {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+footer li {
+    padding: 10px 0;
+}
+
+/* Sezione lingua del footer */
+
+.language {
+    padding: 30px 0;
+
+    width: 10%;
+    border-top: 3px solid grey;
+}
+
+.language i {
+    padding-right: 15px;
+}
+
+.language>p:after {
+    content: ' \25B2';
+    font-size: 8px;
+    vertical-align: middle;
 }
