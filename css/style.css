@@ -159,11 +159,6 @@ nav {
     align-items: center;
 }
 
-nav a:hover:not(.img-container>a) {
-    border-bottom: 2px solid black;
-    padding-bottom: 30px;
-}
-
 /* Sezione jumbo-tron */
 .big-container {
     background-color: #b4d0e7;
@@ -548,6 +543,24 @@ footer li {
     font-size: 8px;
     vertical-align: middle;
 }
+
+/* ---------------------------------------------------------------- */
+/* Contenuto estetico extra */
+
+nav a:hover:not(.img-container>a) {
+    border-bottom: 2px solid black;
+    padding-bottom: 30px;
+}
+
+button:hover {
+    opacity: 0.75;
+}
+
+.four-cards .card:hover {
+    outline: 10px solid #ffffff80;
+    outline-offset: -10px;
+}
+
 
 
 /* ---------------------------------------------------------------- */
