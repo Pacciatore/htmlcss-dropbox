@@ -303,7 +303,8 @@ nav a:hover:not(.img-container>a) {
     text-decoration: underline;
 }
 
-.card-content hr {
+.card-content hr,
+.text-card hr {
     width: 20%;
     margin: 30px 0;
 
@@ -381,7 +382,75 @@ nav a:hover:not(.img-container>a) {
 }
 
 .four-cards {
-    flex-basis: 30%;
+    width: 30vw;
+}
+
+.four-cards>.card {
+    display: flex;
+    height: 15vw;
+    width: 15vw;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.four-cards .card>* {
+    justify-content: center;
+    align-items: center;
+
+    transform: scale(0.5);
+}
+
+.four-cards img {
+    filter: invert();
+}
+
+.text-card {
+    background-color: white;
+    width: calc(100% - 60vw);
+
+    padding: 0 50px;
+    padding-top: 10px;
+}
+
+.text-card>.img-container {
+    width: 40%;
+}
+
+.text-card>*:not(hr) {
+    padding: 30px 0;
+}
+
+.team-cards-container>.four-cards:first-child>.card:first-child {
+    background-color: #a2d39b;
+}
+
+.team-cards-container>.four-cards:first-child>.card:nth-child(2) {
+    background-color: #61082b;
+}
+
+.team-cards-container>.four-cards:first-child>.card:nth-child(3) {
+    background-color: #0093ce;
+}
+
+.team-cards-container>.four-cards:first-child>.card:nth-child(4) {
+    background-color: #ff1c1c;
+}
+
+.team-cards-container>.four-cards:last-child>.card:first-child {
+    background-color: #d5001f;
+}
+
+.team-cards-container>.four-cards:last-child>.card:nth-child(2) {
+    background-color: #b4d0e7;
+}
+
+.team-cards-container>.four-cards:last-child>.card:nth-child(3) {
+    background-color: #0d2481;
+}
+
+.team-cards-container>.four-cards:last-child>.card:nth-child(4) {
+    background-color: #ffd830;
 }
 
 /* Seconda parte fuori container i team Dropbox Business */
@@ -526,14 +595,18 @@ footer li {
 
 .debug .team-cards-container>.card {
     background-color: saddlebrown;
-    height: 200px;
+    /* height: 200px; */
 }
 
 .debug .four-cards>.card {
     background-color: forestgreen;
-    border: 5px solid black;
-    height: 50%;
-    width: 50%;
+    /* border: 5px solid black; */
+    /* height: 50%; */
+    /* width: 50%; */
+}
+
+.debug .text-card {
+    background-color: pink;
 }
 
 .debug .faq {
