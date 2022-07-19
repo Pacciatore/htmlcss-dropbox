@@ -456,7 +456,7 @@ nav a:hover:not(.img-container>a) {
 
 /* Seconda parte fuori container i team Dropbox Business */
 .big-container:nth-child(4)>.container {
-    padding: 50px 0;
+    padding: 100px 0;
 }
 
 .business-trial>p {
