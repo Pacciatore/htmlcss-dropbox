@@ -134,6 +134,10 @@ button {
     font-size: 1.2rem;
 }
 
+ul {
+    list-style-type: none;
+}
+
 /* CONTENT */
 
 
@@ -196,24 +200,134 @@ nav a:hover:not(.img-container>a) {
     top: 70px;
 }
 
+
+
 /* Contenuto principale */
 
-.content.container:nth-child(3) {
-    padding-top: 300px;
-}
-
 .content.container {
+    padding-top: 100px;
     max-width: 1000px;
 }
 
-
 /* Sezione abbonamenti */
+
+.subscription-choice h2 {
+    padding: 50px 0;
+    font-size: 2.5rem;
+}
+
+.select-payment {
+    padding-bottom: 30px;
+}
+
+.select-payment label:first-of-type {
+    padding-right: 50px;
+}
 
 .sub-card-container>.card {
     margin-top: 20px;
     width: calc(100% / 3 - 30px);
+
+    border: 2px solid #d0d0d3;
 }
 
+.sub-card-container>.card>p {
+    text-align: center;
+    padding: 10px 0;
+}
+
+.card-content {
+    border-top: 2px solid #d0d0d3;
+    padding: 30px 20px;
+
+}
+
+.card-content>p:nth-child(3) {
+    color: #b4d0e7;
+}
+
+.card-content *:not(button, hr, .sub-basic-info) {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.sub-basic-info {
+    padding: 20px 0;
+}
+
+.card:first-of-type .sub-basic-info {
+    padding: 30px 0;
+}
+
+.card-content button {
+    width: 100%;
+}
+
+.sub-basic-info>* {
+    padding-left: 20px;
+}
+
+.users-number,
+.cloud-space,
+.sharing-functions {
+    position: relative;
+}
+
+.users-number::before,
+.cloud-space::before,
+.sharing-functions::before {
+    font-family: FontAwesome;
+    padding-right: 5px;
+
+    position: absolute;
+    left: -5px;
+}
+
+.users-number::before {
+    content: '\f007';
+
+}
+
+.cloud-space::before {
+    content: '\f07b';
+}
+
+.sharing-functions::before {
+    content: '\f1e0';
+}
+
+.card-content>p>a {
+    color: blue;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.card-content hr {
+    width: 20%;
+    margin: 30px 0;
+
+    border: 1px solid #d0d0d3;
+}
+
+.sub-hot-content li {
+    position: relative;
+    padding-left: 20px;
+}
+
+.sub-hot-content li::before {
+    content: "\f00c";
+    font-family: FontAwesome;
+    color: blue;
+    display: inline-block;
+    width: 1.3em;
+
+    position: absolute;
+    left: -5px;
+}
+
+.special-card-content {
+    flex-basis: 65%;
+}
 
 /* Sezioni partner */
 
@@ -266,10 +380,6 @@ nav a:hover:not(.img-container>a) {
 
 .faq>h2 {
     padding: 30px 0;
-}
-
-ul {
-    list-style-type: none;
 }
 
 .faq li {
@@ -358,11 +468,12 @@ footer li {
 
 .debug .sub-card-container>.card {
     background-color: chocolate;
-    height: 500px;
+    /* height: 500px; */
 }
 
 .debug .sub-card-container>.card:last-of-type {
-    height: 250px;
+    background-color: darkseagreen;
+    /* height: 250px; */
 }
 
 .debug .find-partner {
