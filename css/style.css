@@ -117,9 +117,6 @@ img.on-height {
 
 /* Barra di navigazione fixed */
 nav {
-    background-color: blue;
-
-    height: 100px;
     width: 100%;
 }
 
@@ -132,16 +129,8 @@ nav {
 }
 
 .container {
-    background-color: aqua;
-
     margin: 0 auto;
     max-width: 1200px;
-}
-
-.jumbo-tron {
-    background-color: yellowgreen;
-
-    height: 350px;
 }
 
 .jumbo-tron .caption {
@@ -155,89 +144,41 @@ nav {
 }
 
 .content.container {
-    background-color: red;
-
     max-width: 1000px;
 }
 
 
 /* Sezione abbonamenti */
 
-.subscription-choice {
-    background-color: purple;
-
-}
-
-.sub-card-container {
-    background-color: darkgoldenrod;
-
-}
-
 .sub-card-container>.card {
-    background-color: chocolate;
-
     margin-top: 20px;
-    height: 500px;
     width: calc(100% / 3 - 30px);
-}
-
-.sub-card-container>.card:last-of-type {
-    height: 250px;
 }
 
 
 /* Sezioni partner */
 
 .find-partner {
-    background-color: darkgreen;
-
-    height: 400px;
     margin: 50px 0;
 }
 
 
 /* Sezione info Dropbox Business */
 
-.business-info-panel {
-    background-color: hotpink;
-}
-
 .business-cards>.card {
-    background-color: indigo;
-
     margin-top: 20px;
-    height: 200px;
     width: calc(100% / 3 - 15px);
 }
 
 
 /* Sezione team Dropbox Business */
 
-.team-cards-container {
-    /* background-color: lime; */
-
-}
-
 .team-cards-container>.card {
-    background-color: saddlebrown;
-
-    height: 200px;
     width: calc(100% / 6);
 }
 
 .four-cards {
     flex-basis: 30%;
-}
-
-.four-cards>.card {
-    background-color: forestgreen;
-
-    border: 5px solid black;
-
-    height: 50%;
-    width: 50%;
-
-
 }
 
 /* Seconda parte fuori container i team Dropbox Business */
@@ -257,8 +198,6 @@ nav {
 /* FAQ */
 
 .faq {
-    background-color: darkviolet;
-
     padding: 100px 0;
 }
 
@@ -292,7 +231,6 @@ footer {
     background-color: black;
 
     color: white;
-    height: 500px;
 }
 
 /* Sezione categorie del footer */
@@ -327,4 +265,81 @@ footer li {
     content: ' \25B2';
     font-size: 8px;
     vertical-align: middle;
+}
+
+
+/* ---------------------------------------------------------------- */
+/* DEBUGGER */
+
+.debug nav {
+    background-color: blue;
+    height: 100px;
+}
+
+.debug .container {
+    background-color: aqua;
+}
+
+.debug .jumbo-tron {
+    background-color: yellowgreen;
+    height: 350px;
+}
+
+.debug .content.container {
+    background-color: red;
+}
+
+.debug .subscription-choice {
+    background-color: purple;
+}
+
+.debug .sub-card-container {
+    background-color: darkgoldenrod;
+}
+
+.debug .sub-card-container>.card {
+    background-color: chocolate;
+    height: 500px;
+}
+
+.debug .sub-card-container>.card:last-of-type {
+    height: 250px;
+}
+
+.debug .find-partner {
+    background-color: darkgreen;
+    height: 400px;
+}
+
+.debug .business-info-panel {
+    background-color: hotpink;
+}
+
+.debug .business-cards>.card {
+    background-color: indigo;
+    height: 200px;
+}
+
+.debug .team-cards-container {
+    background-color: lime;
+}
+
+.debug .team-cards-container>.card {
+    background-color: saddlebrown;
+    height: 200px;
+}
+
+.debug .four-cards>.card {
+    background-color: forestgreen;
+    border: 5px solid black;
+    height: 50%;
+    width: 50%;
+}
+
+.debug .faq {
+    background-color: darkviolet;
+}
+
+.debug footer {
+    height: 500px;
 }
