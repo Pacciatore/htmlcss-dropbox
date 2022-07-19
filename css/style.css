@@ -296,7 +296,8 @@ nav a:hover:not(.img-container>a) {
     content: '\f1e0';
 }
 
-.card-content>p>a {
+.card-content>p>a,
+.business-teams-panel a {
     color: blue;
     cursor: pointer;
     text-decoration: underline;
@@ -360,6 +361,17 @@ nav a:hover:not(.img-container>a) {
 
 .business-cards>.card>* {
     padding: 10px 0;
+}
+
+/* Sezione informativa su Dropbox Business */
+.business-teams-panel {
+    margin: 70px 0;
+
+    width: 40%;
+}
+
+.business-teams-panel * {
+    padding: 30px 0;
 }
 
 /* Sezione team Dropbox Business */
