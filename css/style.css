@@ -112,6 +112,20 @@ img.on-height {
 }
 
 
+/* CONTENT UTILITIES */
+.button-container:not(.user-links>.button-container) {
+    margin: 20px 0;
+}
+
+button {
+    background-color: #0061ff;
+    color: white;
+    border: none;
+
+    padding: 10px;
+    font-size: 1.2rem;
+}
+
 /* CONTENT */
 
 
@@ -124,8 +138,6 @@ nav {
 /* Sezione jumbo-tron */
 .big-container {
     background-color: #b4d0e7;
-
-    padding-top: 100px;
 }
 
 .container {
@@ -133,8 +145,30 @@ nav {
     max-width: 1200px;
 }
 
+.jumbo-tron h1 {
+    font-size: 84px;
+    padding-top: 100px;
+
+}
+
 .jumbo-tron .caption {
-    flex-basis: 55%;
+    width: 30%;
+    padding-top: 70px;
+}
+
+.jumbo-tron .caption i {
+    font-size: 4rem;
+
+    padding-top: 150px;
+}
+
+.jumbo-tron .img-container {
+    width: 70%;
+}
+
+.jumbo-tron img {
+    position: relative;
+    top: 70px;
 }
 
 /* Contenuto principale */
