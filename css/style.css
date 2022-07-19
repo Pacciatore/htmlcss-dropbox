@@ -335,6 +335,21 @@ nav a:hover:not(.img-container>a) {
     margin: 50px 0;
 }
 
+.find-partner>.caption {
+    padding: 50px;
+
+    flex-basis: 70%;
+}
+
+.find-partner>.caption>* {
+    padding-bottom: 20px;
+}
+
+.find-partner button {
+    background-color: transparent;
+    color: black;
+    border: 1px solid black;
+}
 
 /* Sezione info Dropbox Business */
 
@@ -478,7 +493,7 @@ footer li {
 
 .debug .find-partner {
     background-color: darkgreen;
-    height: 400px;
+    /* height: 400px; */
 }
 
 .debug .business-info-panel {
