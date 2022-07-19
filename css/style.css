@@ -332,7 +332,7 @@ nav a:hover:not(.img-container>a) {
 /* Sezioni partner */
 
 .find-partner {
-    margin: 50px 0;
+    margin: 100px 0;
 }
 
 .find-partner>.caption {
@@ -355,9 +355,12 @@ nav a:hover:not(.img-container>a) {
 
 .business-cards>.card {
     margin-top: 20px;
-    width: calc(100% / 3 - 15px);
+    width: calc(100% / 3 - 20px);
 }
 
+.business-cards>.card>* {
+    padding: 10px 0;
+}
 
 /* Sezione team Dropbox Business */
 
@@ -502,7 +505,7 @@ footer li {
 
 .debug .business-cards>.card {
     background-color: indigo;
-    height: 200px;
+    /* height: 200px; */
 }
 
 .debug .team-cards-container {
