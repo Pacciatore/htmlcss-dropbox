@@ -23,12 +23,6 @@ a {
 }
 
 /* Grandezza di tutte le immagini massimo quanto
- il loro rispettivo contenitore sulla base della larghezza*/
-img.on-width {
-    width: 100%;
-}
-
-/* Grandezza di tutte le immagini massimo quanto
  il loro rispettivo contenitore sulla base dell'altezza'*/
 img.on-height {
     height: 100%;
@@ -148,6 +142,7 @@ ul {
 
 /*#region Content style utilities */
 
+/*#region Padding */
 .ptb-10px {
     padding: 10px 0 !important;
 }
@@ -172,6 +167,15 @@ ul {
     padding-bottom: 30px !important;
 }
 
+/*#endregion Padding */
+
+/*#region Width - Height  */
+
+.w-100 {
+    width: 100%;
+}
+
+/*#endregion Width - Height  */
 
 /*#endregion Content style utilities */
 
@@ -189,7 +193,6 @@ ul {
 
 /*#region Barra di navigazione fixed */
 nav {
-    width: 100%;
     background-color: white;
 
     padding: 20px 20px 20px 5px;
@@ -280,11 +283,6 @@ nav {
 
 .sub-basic-info {
     padding: 20px 0;
-}
-
-.card-content button,
-.business-trial button {
-    width: 100%;
 }
 
 .users-number::before,
