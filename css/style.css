@@ -238,7 +238,6 @@ nav {
 }
 
 .jumbo-tron img {
-    position: relative;
     top: 70px;
 }
 
@@ -286,12 +285,6 @@ nav {
 .card-content button,
 .business-trial button {
     width: 100%;
-}
-
-.users-number,
-.cloud-space,
-.sharing-functions {
-    position: relative;
 }
 
 .users-number::before,
