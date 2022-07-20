@@ -1,3 +1,5 @@
+/*#region Contenuti importati  */
+
 /* CSS Reset */
 * {
     margin: 0;
@@ -122,8 +124,9 @@ img.on-height {
     float: right;
 }
 
+/*#endregion contenuti importati  */
 
-/* CONTENT UTILITIES */
+/*#region CONTENT UTILITIES */
 .button-container:not(.user-links>.button-container) {
     margin: 20px 0;
 }
@@ -143,10 +146,19 @@ ul {
     list-style-type: none;
 }
 
-/* CONTENT */
+/* Contenuto principale */
+
+.content.container {
+    padding-top: 100px;
+    max-width: 1000px;
+}
+
+/* #endregion */
+
+/*#region CONTENT */
 
 
-/* Barra di navigazione fixed */
+/*#region Barra di navigazione fixed */
 nav {
     width: 100%;
     background-color: white;
@@ -164,7 +176,9 @@ nav {
     align-items: center;
 }
 
-/* Sezione jumbo-tron */
+/*#endregion Nav */
+
+/*#region Sezione jumbo-tron */
 .big-container {
     background-color: #b4d0e7;
 }
@@ -177,7 +191,6 @@ nav {
 .jumbo-tron h1 {
     font-size: 84px;
     padding-top: 150px;
-
 }
 
 .jumbo-tron .caption {
@@ -200,16 +213,9 @@ nav {
     top: 70px;
 }
 
+/*#endregion Jumbotron */
 
-
-/* Contenuto principale */
-
-.content.container {
-    padding-top: 100px;
-    max-width: 1000px;
-}
-
-/* Sezione abbonamenti */
+/*#region Sezione abbonamenti */
 
 .subscription-choice h2 {
     padding: 50px 0;
@@ -332,7 +338,9 @@ nav {
     flex-basis: 65%;
 }
 
-/* Sezioni partner */
+/*#endregion Sezione abbonamenti */
+
+/*#region Sezioni partner */
 
 .find-partner {
     margin: 100px 0;
@@ -354,7 +362,9 @@ nav {
     border: 1px solid black;
 }
 
-/* Sezione info Dropbox Business */
+/*#endregion Sezioni partner  */
+
+/*#region Sezione info Dropbox Business */
 
 .business-cards>.card {
     margin-top: 20px;
@@ -376,7 +386,9 @@ nav {
     padding: 30px 0;
 }
 
-/* Sezione team Dropbox Business */
+/*#endregion Sezione info Dropbox Business */
+
+/*#region Sezione team Dropbox Business */
 
 .team-cards-container>.card {
     width: calc(100% / 6);
@@ -478,8 +490,9 @@ nav {
     color: black;
 }
 
+/*#endregion team Dropbox Business */
 
-/* FAQ */
+/*#region FAQ */
 
 .faq {
     padding-bottom: 100px;
@@ -506,8 +519,9 @@ nav {
     padding-left: 35%;
 }
 
+/*#endregion FAQ  */
 
-/* Footer */
+/*#region Footer */
 
 footer {
     background-color: black;
@@ -530,7 +544,9 @@ footer li {
     padding: 10px 0;
 }
 
-/* Sezione lingua del footer */
+/*#endregion Footer  */
+
+/*#region Sezione lingua del footer */
 
 .language {
     padding: 30px 0;
@@ -549,8 +565,10 @@ footer li {
     vertical-align: middle;
 }
 
+/*#endregion */
+
 /* ---------------------------------------------------------------- */
-/* Contenuto estetico extra */
+/*#region Contenuto estetico extra */
 
 nav a:hover:not(.img-container>a) {
     border-bottom: 2px solid black;
@@ -567,21 +585,15 @@ button:hover {
 }
 
 .faq li:nth-child(even) {
-    /* background-color: black; */
-
     display: none;
     border: none;
 }
 
 .faq li:nth-child(even)::after {
-    /* background-color: black; */
-
     content: none;
 }
 
 .faq li:nth-child(odd):hover::after {
-    /* background-color: black; */
-
     content: '\f106';
 }
 
@@ -599,10 +611,12 @@ footer a:hover {
     color: #0061ff;
 }
 
+/*#endregion Contenuto estetico extra  */
 
+/*#endregion CONTENT  */
 
 /* ---------------------------------------------------------------- */
-/* DEBUGGER */
+/*#region DEBUGGER */
 
 .debug nav {
     background-color: blue;
@@ -681,3 +695,5 @@ footer a:hover {
 .debug footer {
     height: 500px;
 }
+
+/*#endregion  */
