@@ -48,6 +48,10 @@ a {
     flex-direction: row-reverse;
 }
 
+.j-center {
+    justify-content: center;
+}
+
 .space-between {
     justify-content: space-between;
 }
@@ -180,6 +184,14 @@ ul {
 
 /*#endregion Width */
 
+/*#region Align-Items */
+
+.ai-center {
+    align-items: center;
+}
+
+/*#endregion Align-Items  */
+
 /*#endregion Content style utilities */
 
 /* Contenuto principale */
@@ -200,14 +212,7 @@ nav {
 
     padding: 20px 20px 20px 5px;
 
-    align-items: center;
-
     z-index: 10;
-}
-
-.site-links,
-.user-links {
-    align-items: center;
 }
 
 /*#endregion Nav */
@@ -389,20 +394,12 @@ nav {
     display: flex;
     height: 15vw;
     width: 15vw;
-
-    justify-content: center;
-    align-items: center;
 }
 
 .four-cards .card>* {
-    justify-content: center;
-    align-items: center;
-
     transform: scale(0.5);
-}
-
-.four-cards img {
     filter: invert();
+
 }
 
 .text-card {
