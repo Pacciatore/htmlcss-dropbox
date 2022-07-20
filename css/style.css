@@ -247,6 +247,13 @@ ul {
 
 /*#endregion Font Colors  */
 
+/*#region Borders  */
+.bt-2-grey {
+    border-top: 2px solid #d0d0d3;
+}
+
+/*#endregion Borders  */
+
 /*#endregion Content style utilities */
 
 /* Contenuto principale */
@@ -322,9 +329,7 @@ nav {
 }
 
 .card-content {
-    border-top: 2px solid #d0d0d3;
     padding: 30px 20px;
-
 }
 
 .card-content>p:nth-child(3) {
@@ -522,7 +527,6 @@ footer h4 {
 
 .language {
     width: 10%;
-    border-top: 3px solid grey;
 }
 
 .language i {
