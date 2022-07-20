@@ -391,7 +391,6 @@ nav {
 }
 
 .four-cards>.card {
-    display: flex;
     height: 15vw;
     width: 15vw;
 }
@@ -399,7 +398,6 @@ nav {
 .four-cards .card>* {
     transform: scale(0.5);
     filter: invert();
-
 }
 
 .text-card {
