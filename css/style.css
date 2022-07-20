@@ -141,6 +141,13 @@ ul {
 
 /*#region Content style utilities */
 
+/*#region Margin  */
+.mt-20px {
+    margin-top: 20px;
+}
+
+/*#endregion Margin  */
+
 /*#region Padding */
 .ptb-10px {
     padding: 10px 0 !important;
@@ -169,7 +176,6 @@ ul {
 /*#endregion Padding */
 
 /*#region Width  */
-
 .w-30 {
     width: 30% !important;
 }
@@ -185,7 +191,6 @@ ul {
 /*#endregion Width */
 
 /*#region Align-Items */
-
 .ai-center {
     align-items: center;
 }
@@ -193,7 +198,6 @@ ul {
 /*#endregion Align-Items  */
 
 /*#region Background-Colors  */
-
 .bg-white {
     background-color: white;
 }
@@ -233,7 +237,6 @@ ul {
 /*#endregion Background-Colors  */
 
 /*#region Font Colors  */
-
 .blue {
     color: #0061ff;
 }
@@ -309,7 +312,6 @@ nav {
 }
 
 .sub-card-container>.card {
-    margin-top: 20px;
     width: calc(100% / 3 - 30px);
 
     border: 2px solid #d0d0d3;
@@ -413,7 +415,6 @@ nav {
 /*#region Sezione info Dropbox Business */
 
 .business-cards>.card {
-    margin-top: 20px;
     width: calc(100% / 3 - 20px);
 }
 
