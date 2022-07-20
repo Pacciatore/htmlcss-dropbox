@@ -13,7 +13,6 @@ body {
 /* a-Link reset */
 a {
     color: inherit;
-    cursor: default;
     text-decoration: none;
 }
 
@@ -588,6 +587,10 @@ button:hover {
     display: list-item;
     border-bottom: 2px solid grey;
 
+}
+
+footer a:hover {
+    color: #0061ff;
 }
 
 
