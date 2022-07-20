@@ -561,6 +561,35 @@ button:hover {
     outline-offset: -10px;
 }
 
+.faq li:nth-child(even) {
+    /* background-color: black; */
+
+    display: none;
+    border: none;
+}
+
+.faq li:nth-child(even)::after {
+    /* background-color: black; */
+
+    content: none;
+}
+
+.faq li:nth-child(odd):hover::after {
+    /* background-color: black; */
+
+    content: '\f106';
+}
+
+.faq li:hover {
+    border-bottom: none;
+}
+
+.faq li:nth-child(odd):hover+li:nth-child(even) {
+    display: list-item;
+    border-bottom: 2px solid grey;
+
+}
+
 
 
 /* ---------------------------------------------------------------- */
