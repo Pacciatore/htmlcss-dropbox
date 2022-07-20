@@ -146,6 +146,14 @@ ul {
     list-style-type: none;
 }
 
+/*#region Content style utilities */
+
+.ptb-30px {
+    padding: 30px 0 !important;
+}
+
+/*#endregion Content style utilities */
+
 /* Contenuto principale */
 
 .content.container {
@@ -259,10 +267,6 @@ nav {
 
 .sub-basic-info {
     padding: 20px 0;
-}
-
-.card:first-of-type .sub-basic-info {
-    padding: 30px 0;
 }
 
 .card-content button,
@@ -382,10 +386,6 @@ nav {
     width: 40%;
 }
 
-.business-teams-panel * {
-    padding: 30px 0;
-}
-
 /*#endregion Sezione info Dropbox Business */
 
 /*#region Sezione team Dropbox Business */
@@ -428,10 +428,6 @@ nav {
 
 .text-card>.img-container {
     width: 40%;
-}
-
-.text-card>*:not(hr) {
-    padding: 30px 0;
 }
 
 .team-cards-container>.four-cards:first-child>.card:first-child {
@@ -549,8 +545,6 @@ footer li {
 /*#region Sezione lingua del footer */
 
 .language {
-    padding: 30px 0;
-
     width: 10%;
     border-top: 3px solid grey;
 }
