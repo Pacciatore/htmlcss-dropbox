@@ -192,6 +192,46 @@ ul {
 
 /*#endregion Align-Items  */
 
+/*#region Background-Colors  */
+
+.bg-white {
+    background-color: white;
+}
+
+.bg-grey-blue {
+    background-color: #b4d0e7;
+}
+
+.bg-light-green {
+    background-color: #a2d39b;
+}
+
+.bg-bordeaux {
+    background-color: #61082b;
+}
+
+.bg-light-blue {
+    background-color: #0093ce;
+}
+
+.bg-red {
+    background-color: #ff1c1c;
+}
+
+.bg-darker-red {
+    background-color: #d5001f;
+}
+
+.bg-dark-blue {
+    background-color: #0d2481;
+}
+
+.bg-yellow {
+    background-color: #ffd830;
+}
+
+/*#endregion Background-Colors  */
+
 /*#endregion Content style utilities */
 
 /* Contenuto principale */
@@ -208,8 +248,6 @@ ul {
 
 /*#region Barra di navigazione fixed */
 nav {
-    background-color: white;
-
     padding: 20px 20px 20px 5px;
 
     z-index: 10;
@@ -218,10 +256,6 @@ nav {
 /*#endregion Nav */
 
 /*#region Sezione jumbo-tron */
-.big-container {
-    background-color: #b4d0e7;
-}
-
 .container {
     margin: 0 auto;
     max-width: 1200px;
@@ -401,43 +435,10 @@ nav {
 }
 
 .text-card {
-    background-color: white;
     width: calc(100% - 60vw);
 
     padding: 0 50px;
     padding-top: 10px;
-}
-
-.team-cards-container>.four-cards:first-child>.card:first-child {
-    background-color: #a2d39b;
-}
-
-.team-cards-container>.four-cards:first-child>.card:nth-child(2) {
-    background-color: #61082b;
-}
-
-.team-cards-container>.four-cards:first-child>.card:nth-child(3) {
-    background-color: #0093ce;
-}
-
-.team-cards-container>.four-cards:first-child>.card:nth-child(4) {
-    background-color: #ff1c1c;
-}
-
-.team-cards-container>.four-cards:last-child>.card:first-child {
-    background-color: #d5001f;
-}
-
-.team-cards-container>.four-cards:last-child>.card:nth-child(2) {
-    background-color: #b4d0e7;
-}
-
-.team-cards-container>.four-cards:last-child>.card:nth-child(3) {
-    background-color: #0d2481;
-}
-
-.team-cards-container>.four-cards:last-child>.card:nth-child(4) {
-    background-color: #ffd830;
 }
 
 /* Seconda parte fuori container i team Dropbox Business */
@@ -460,7 +461,6 @@ nav {
 }
 
 .business-trial button {
-    background-color: white;
     color: black;
 }
 
