@@ -160,6 +160,10 @@ ul {
     padding: 50px 0 !important;
 }
 
+.pl-20px {
+    padding-left: 20px !important;
+}
+
 /*#endregion Content style utilities */
 
 /* Contenuto principale */
@@ -279,10 +283,6 @@ nav {
     width: 100%;
 }
 
-.sub-basic-info>* {
-    padding-left: 20px !important;
-}
-
 .users-number,
 .cloud-space,
 .sharing-functions {
@@ -325,11 +325,6 @@ nav {
     margin: 30px 0;
 
     border: 1px solid #d0d0d3;
-}
-
-.sub-hot-content li {
-    position: relative;
-    padding-left: 20px !important;
 }
 
 .sub-hot-content li::before {
