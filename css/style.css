@@ -22,11 +22,6 @@ a {
     text-decoration: none;
 }
 
-/* Grandezza di tutte le immagini massimo quanto
- il loro rispettivo contenitore sulla base dell'altezza'*/
-img.on-height {
-    height: 100%;
-}
 
 /* UTILITIES */
 
@@ -169,13 +164,21 @@ ul {
 
 /*#endregion Padding */
 
-/*#region Width - Height  */
+/*#region Width  */
 
-.w-100 {
-    width: 100%;
+.w-30 {
+    width: 30% !important;
 }
 
-/*#endregion Width - Height  */
+.w-40 {
+    width: 40% !important;
+}
+
+.w-100 {
+    width: 100% !important;
+}
+
+/*#endregion Width */
 
 /*#endregion Content style utilities */
 
@@ -204,7 +207,6 @@ nav {
 
 .site-links,
 .user-links {
-    width: 30%;
     align-items: center;
 }
 
@@ -226,7 +228,6 @@ nav {
 }
 
 .jumbo-tron .caption {
-    width: 30%;
     padding-top: 70px;
 }
 
@@ -370,8 +371,6 @@ nav {
 /* Sezione informativa su Dropbox Business */
 .business-teams-panel {
     margin: 70px 0;
-
-    width: 40%;
 }
 
 /*#endregion Sezione info Dropbox Business */
@@ -412,10 +411,6 @@ nav {
 
     padding: 0 50px;
     padding-top: 10px;
-}
-
-.text-card>.img-container {
-    width: 40%;
 }
 
 .team-cards-container>.four-cards:first-child>.card:first-child {
