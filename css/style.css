@@ -157,7 +157,7 @@ ul {
 }
 
 .ptb-50px {
-    padding: 50px 0;
+    padding: 50px 0 !important;
 }
 
 /*#endregion Content style utilities */
@@ -267,8 +267,7 @@ nav {
 }
 
 .card-content *:not(button, hr, .sub-basic-info) {
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding: 10px 0;
 }
 
 .sub-basic-info {
@@ -281,7 +280,7 @@ nav {
 }
 
 .sub-basic-info>* {
-    padding-left: 20px;
+    padding-left: 20px !important;
 }
 
 .users-number,
@@ -330,7 +329,7 @@ nav {
 
 .sub-hot-content li {
     position: relative;
-    padding-left: 20px;
+    padding-left: 20px !important;
 }
 
 .sub-hot-content li::before {
