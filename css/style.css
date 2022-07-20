@@ -156,6 +156,10 @@ ul {
     padding: 30px 0 !important;
 }
 
+.ptb-50px {
+    padding: 50px 0;
+}
+
 /*#endregion Content style utilities */
 
 /* Contenuto principale */
@@ -230,7 +234,6 @@ nav {
 /*#region Sezione abbonamenti */
 
 .subscription-choice h2 {
-    padding: 50px 0;
     font-size: 2.5rem;
 }
 
@@ -495,10 +498,6 @@ nav {
 
 .faq *:not(ul) {
     border-bottom: 2px solid grey;
-}
-
-.faq>h2 {
-    padding: 50px 0;
 }
 
 .faq li {
